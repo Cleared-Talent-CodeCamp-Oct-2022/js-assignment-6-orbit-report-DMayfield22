@@ -22,7 +22,7 @@ export class Satellite {
 isSpaceDebris(): boolean { 
 	let changeColor = this.type.toLowerCase();
 	if (changeColor === "space debris") {
-   return true;
+   		return true;
 	} 
 	return false;
 }
